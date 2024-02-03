@@ -1,0 +1,90 @@
+/* Reset.css */
+
+/* Reglas de box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Eliminar margen predeterminado */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Eliminar estilos de lista en elementos ul, ol con un rol de lista, lo que sugiere que se eliminarán los estilos predeterminados */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Establecer valores predeterminados centrales */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Restablecer valores del cuerpo del documento */
+body {
+    line-height: 1.5;
+}
+
+/* Eliminar la sangría del texto de los elementos de código */
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Formularios y botones */
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    appearance: none;
+}
+
+/* Eliminar la herencia de la transformación de texto en Firefox */
+button,
+select {
+    text-transform: none;
+}
+
+/* Restablecer estilos de anclaje */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Restablecer borde de imagen */
+img {
+    border-style: none;
+}
+
+/* Medios integrados receptivos */
+iframe {
+    display: block;
+    max-width: 100%;
+}
+
+/* Utilidad de clearfix */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}

@@ -5,43 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css"
+        href="'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900'" />
+
 </head>
 
 <body>
     <header>
-        <h1>Leo Leguizamón</h1>
-        <p>Curriculum Vitae</p>
+        <div class="header">
+            <h1 class="titulo_principal">Leo Leguizamón</h1>
+            <p id="curriculum">Curriculum Vitae</p>
+        </div>
     </header>
     <main>
         <section>
-            <div>
-                <img src="img/perfil.jpg">
-            </div>
-            <div>
-                <ul>
-                    <li><b>Nombres: </b>Leonardo Alcides</li>
-                    <li><b>Apellidos: </b>Leguizamón Alegre</li>
-                    <li><b>Nacimiento: </b>30/12/1991</li>
-                    <li><b>Cédula: </b>4.575.156</li>
-                    <li><b>Estado Civil: </b>Soltero</li>
-                    <li><b>Nacionalidad: </b>Paraguaya</li>
-                    <li><b>Departamento: </b>Misiones</li>
-                    <li><b>Ciudad: </b>San Juan Bautista</li>
-                </ul>
+            <div class="contenedor" id="contenedor_perfil">
+                <div>
+                    <img id="imagen_perfil" src="img/perfil.jpg">
+                </div>
+                <div>
+                    <ul>
+                        <li><b>Nombres: </b>Leonardo Alcides</li>
+                        <li><b>Apellidos: </b>Leguizamón Alegre</li>
+                        <li><b>Nacimiento: </b>30/12/1991</li>
+                        <li><b>Cédula: </b>4.575.156</li>
+                        <li><b>Estado Civil: </b>Soltero</li>
+                        <li><b>Nacionalidad: </b>Paraguaya</li>
+                        <li><b>Departamento: </b>Misiones</li>
+                        <li><b>Ciudad: </b>San Juan Bautista</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section>
-            <div>
-                <h2>SOBRE MI</h2>
-            </div>
-            <div>
-                <p>Soy Leo Leguizamón, profesional autodidacta en diseño y tecnología, especializado en Front-End.
-                    Destaco
-                    en la creación de marcas, diseño publicitario y atractivas interfaces web. Fundador de las
-                    Olimpiadas
-                    Estudiantiles Sanjuaninas y colaborador en festivales. Creatividad, atención al detalle y enfoque
-                    multidisciplinario son mis fortalezas. Emocionado por futuras oportunidades en diseño y tecnología.
-                </p>
+            <div class="contenedor" id="contenedor_sobremi">
+                <div>
+                    <h2 class="titulos">SOBRE MI</h2>
+                </div>
+                <div>
+                    <p>Soy Leo Leguizamón, profesional autodidacta en diseño y tecnología, especializado en Front-End.
+                        Destaco
+                        en la creación de marcas, diseño publicitario y atractivas interfaces web. Fundador de las
+                        Olimpiadas
+                        Estudiantiles Sanjuaninas y colaborador en festivales. Creatividad, atención al detalle y
+                        enfoque
+                        multidisciplinario son mis fortalezas. Emocionado por futuras oportunidades en diseño y
+                        tecnología.
+                    </p>
+                </div>
             </div>
         </section>
         <section>
