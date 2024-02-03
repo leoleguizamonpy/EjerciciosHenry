@@ -1,6 +1,11 @@
 /* Reset.css */
 
 /* Reglas de box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 *,
 *::before,
 *::after {

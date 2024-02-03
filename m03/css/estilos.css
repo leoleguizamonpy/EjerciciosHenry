@@ -30,11 +30,14 @@ p {
 }
 
 .contenedor {
-    margin: 3em 0 3em 0;
     padding: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contenedor_hijo {
+    margin: 1em;
 }
 
 #contenedor_perfil {
@@ -46,13 +49,50 @@ p {
 #imagen_perfil {
     width: 250px;
     border-radius: 100%;
+    margin: 2em;
 }
 
 #contenedor_sobremi {
     margin: auto;
-    padding: 5em;
+    padding: 3em;
     width: 60vw;
     flex-direction: column;
     text-align: center;
     gap: 1em;
+}
+
+#contenedor_educacion {
+    background-color: rgb(223, 223, 223);
+    margin: auto;
+    padding: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contenedor_experiencia {
+    margin: auto;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+    color: rgb(150, 150, 150);
+}
+
+.link:hover {
+    color: white;
+    transition: 1s;
 }
